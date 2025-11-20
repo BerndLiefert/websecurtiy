@@ -40,9 +40,9 @@
         }
     </style>
 </head>
-
+<img src="example.png" alt="Example of XSS attack" width="220">
 <body>
-    <form method="GET" action="connect.php">
+    <form method="GET" action="index.php">
         <input name="username"><br>
         <input type="submit" value="Absenden">
     </form>
@@ -51,7 +51,7 @@
 </html>
 <?php
 $host = 'localhost';
-$dbname = 'xss';
+$dbname = 'websecurity';
 $user = 'root';
 $pass = '';
 
